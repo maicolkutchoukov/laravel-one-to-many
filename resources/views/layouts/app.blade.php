@@ -11,8 +11,8 @@
         @vite('resources/js/app.js')
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <header class="">
+            <nav class="navbar navbar-expand-lg bg-body-secondary">
                 <div class="container">
                     <a class="navbar-brand" href="/">Template</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,6 +22,9 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('admin.dashboard') }}">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('admin.projects.index') }}">Project</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Link 2</a>
