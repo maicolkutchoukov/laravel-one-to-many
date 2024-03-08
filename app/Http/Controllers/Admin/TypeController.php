@@ -34,6 +34,7 @@ class TypeController extends Controller
         $typeData = $request->validate([
             'title' => 'required|string|max:255'
         ]);
+        /* $typeData = $request->all(); */
 
         $slug = str()->slug($typeData['title']);
 

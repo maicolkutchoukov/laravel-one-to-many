@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('page-title', 'Tutte i tipi di progetto')
+@section('page-title', 'Tutti i tipi di progetto')
 
 @section('main-content')
     <div class="row">

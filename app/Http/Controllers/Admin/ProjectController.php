@@ -53,6 +53,7 @@ class ProjectController extends Controller
             'slug' => $slug,
             'content' => $projectData['content'],
         ]);
+        return redirect()->route('admin.projects.show', compact('project'));
     }
 
     /**
